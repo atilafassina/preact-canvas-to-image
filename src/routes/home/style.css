@@ -1,0 +1,26 @@
+.home {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	background: linear-gradient(45deg,var(--accent-1), var(--accent-2));
+}
+
+.canvas {
+	padding: 0;
+	margin: 0;
+	border: 5px var(--light-500) solid;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-size: 400% 400%;
+}
+
+.wrapper {
+	display: grid;
+	place-items: center;
+	grid-gap: 2rem;
+}
+
+.input {
+	width: 100%;
+}
